@@ -1,0 +1,125 @@
+body {
+	background: #fff;
+}
+
+a:link {
+	text-decoration: none;
+}
+
+header {
+	display: flex;
+	justify-content:space-between;
+	align-items: center;
+	padding: 8px 50px;
+	font-size: 1.1rem;
+	background: white;
+	box-shadow: 0 3px 6px rgba(0,0,0,0.3);
+}
+
+
+header li a {
+	color: #000;
+}
+
+header li a:hover {
+	color: #000;
+	text-shadow: 1px 1px 0px cyan;
+}
+
+span.logo {
+	color: black;
+	font-size: 1.3rem;
+	letter-spacing: 3px;
+}
+
+.introducing {
+	padding: 100px 50px 50px 50px;
+}
+
+.introducing p {
+	font-size: 1.5rem;
+	margin-top:20px;
+}
+
+.html {
+	color: #F18402;
+}
+
+.css {
+	color: #387BE9;
+}
+
+.js {
+	color: #ECD302;
+}
+
+.bootstrap {
+	color:  #602c50;
+}
+
+.html,
+.css,
+.js,
+.bootstrap {
+	font-weight: 500;
+}
+
+.projects-list {
+	padding: 0 50px;
+}
+
+.projects-list ul li {
+	list-style: none;
+	font-size: 1.3rem;
+}
+
+.projects-list ul li a{
+	color: #000;
+}
+
+.projects-list ul li a:hover{
+	border-bottom: 1px solid cyan;
+}
+
+footer {
+	width: 100%;
+	padding: 20px 50px;
+	background: #000;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
+}
+
+footer ul li a {
+	color: #fff;
+	font-size: 1.2rem;
+}
+
+footer ul li a:hover {
+	color: cyan;
+}
+
+@media(max-width: 700px) {
+	header ul.nav {
+		display: none;
+	}
+}
+
+@media (max-width: 990px) {
+	span.logo {
+		font-size: 1rem;
+	}
+
+	.introducing h1{
+		font-size: 2rem;
+	}
+
+	.introducing p {
+		font-size: 1.2rem;
+	}
+
+	footer ul.nav li a {
+		font-size: 1.3rem;
+	}
+}
